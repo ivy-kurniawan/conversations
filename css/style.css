@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Tex Gyre Condensed';
+  src: url(texgyreheroscn-regular.otf);
+}
+
+html {
+  font-family: 'Tex Gyre Condensed', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+} 
+
+.container {
+  margin: 0 auto;
+}
+
+.body {
+  width: 19.85%;
+  position: absolute;
+  top: -14.8%;
+  left: 36.8%;
+  transform: rotate(54deg);
+  opacity: 0.5;
+} 
+
+.body-pic {
+  width: 21.3%;
+  position: absolute;
+  top: -15.5%;
+  left: 36%;
+  transform: rotate(54deg);
+  opacity: 0;
+} 
+
+.container:hover .body-pic {
+  opacity: 1;
+}
+
+.text {
+  color: #f993b3;
+  opacity: 0;
+  position: absolute;
+  top: 73%;
+  left: 67%;
+  line-height: 150%;
+}
+
+.question {
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 5%;
+  line-height: 150%;
+}
+
+.stitch1 {
+  width: 3.8%;
+  position: absolute;
+  top: 21.5%;
+  left: 64.2%;
+  transform: rotate(20deg);
+/*  opacity: 0;*/
+}
+
+.stitch2 {
+  width: 1.5%;
+  position: absolute;
+  top: 36%;
+  left: 47.5%;
+  transform: rotate(20deg);
+/*  opacity: 0;*/
+}
+
+.stitch3 {
+  width: 1.5%;
+  position: absolute;
+  top: 37.3%;
+  left: 37.5%;
+  transform: rotate(20deg);
+/*  opacity: 0;*/
+}
+
+.stitch4 {
+  width: 5%;
+  position: absolute;
+  top: 76%;
+  left: 19.5%;
+  transform: rotate(20deg);
+/*  opacity: 0;*/
+}
+
+.stitch5 {
+  width: 1.5%;
+  position: absolute;
+  top: 44%;
+  left: 55.7%;
+  transform: rotate(20deg);
+/*  opacity: 0;*/
+}
